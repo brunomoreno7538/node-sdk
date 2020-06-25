@@ -1,12 +1,16 @@
-const classe = require('./ignore/shopper');
+const classe = require('./lib/models/shopperBeta');
+const teste = require('./lib/models/Shopper');
 
-const shopper = classe.shopperInfo({
-  email: 'teste@hmail.com',
-  name: 'Bruno Moreno',
-  cpf: 'XXXX7889841',
-  branch: 'XXXX',
-  account: '312312312',
-  phone: 'XXXX308507',
-});
+classe.setEmail('dawda');
+console.log(classe.getEmail());
 
-console.log(shopper);
+console.log(
+  teste.shopperInfo({
+    email: 'teste@hmail.com',
+    name: 'Bruno Moreno',
+    cpf: 'XXXX7889841',
+    branch: 'XXXX',
+    account: '312312312',
+    phone: 'XXXX308507',
+  }),
+);
