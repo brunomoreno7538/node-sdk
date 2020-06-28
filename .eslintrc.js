@@ -10,5 +10,6 @@ module.exports = {
   },
   rules: {
     'global-require': 0,
+    'no-underscore-dangle': 'off',
   },
 };
