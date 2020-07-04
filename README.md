@@ -12,7 +12,7 @@ env.setConfiguration();
 
 const shopper = paymee.Shopper.shopperInfo({
   // sets the shopper info
-  email: 'teste@hmail.com',
+  email: 'foo@hmail.com',
   name: 'Bruno Moreno',
   cpf: 'XXXX7889841',
   branch: 'XXXX',
